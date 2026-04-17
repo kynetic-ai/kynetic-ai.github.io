@@ -25,6 +25,19 @@ The next frontier of AI is not in the cloud — it's in the world.
 
 We're building the intelligence layer that turns hardware into intelligence.
 
+## Latest Posts
+
+<ul class="post-list">
+  {% for post in site.posts limit:2 %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<p><a href="/blog/">View all posts →</a></p>
+
 ## Get Involved
 
 We're raising our pre-seed round to build the first version of our Physical AI brain.
