@@ -24,7 +24,7 @@ A world where:
 
 ## The Team
 
-Kynetic was founded by a team with deep expertise in robot learning, computer vision, and edge AI.
+Kynetic was founded by a team with deep expertise in robot learning, computer vision, and physical AI.
 
 [Placeholder: Add team bios]
 
