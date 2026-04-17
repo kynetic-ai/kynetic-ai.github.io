@@ -1,5 +1,7 @@
 ---
 layout: home
+show_excerpts: false
+list_title: Latest Posts
 ---
 
 Kynetic Intelligence builds the brain for Physical AI — intelligent agents that perceive, reason, and act in the physical world.
