@@ -1,0 +1,162 @@
+---
+---
+
+// Kynetic Intelligence — Brand Overrides
+// Based on minima theme, adapted for a robotics/deep-tech aesthetic
+
+$brand-color: #2563eb;
+$brand-color-dark: #1d4ed8;
+$text-color: #1a1a2e;
+$text-color-light: #4a5568;
+$background-color: #fafafa;
+
+// Typography
+$font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$heading-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+// Minima variable overrides (must come before imports)
+@import "minima";
+
+// --- Hero Section ---
+.hero {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #f1f5f9;
+  padding: 5rem 2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 2.75rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: #f8fafc;
+  margin-bottom: 1.25rem;
+  line-height: 1.15;
+}
+
+.hero-sub {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #94a3b8;
+  margin-bottom: 2.5rem;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: #2563eb;
+  color: #ffffff;
+  padding: 0.75rem 1.75rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  display: inline-block;
+  background: transparent;
+  color: #94a3b8;
+  padding: 0.75rem 1.75rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  border: 1px solid #334155;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-secondary:hover {
+  color: #f8fafc;
+  border-color: #64748b;
+  text-decoration: none;
+}
+
+// --- Pillars ---
+.pillars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  max-width: 960px;
+  margin: 0 auto 3.5rem;
+  padding: 0 2rem;
+}
+
+.pillar {
+  padding: 1.5rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.pillar h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 0.75rem;
+}
+
+.pillar p {
+  font-size: 0.95rem;
+  color: #4a5568;
+  line-height: 1.65;
+  margin: 0;
+}
+
+// --- Mission ---
+.mission {
+  max-width: 720px;
+  margin: 0 auto 3.5rem;
+  padding: 0 2rem;
+}
+
+.mission h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 1rem;
+}
+
+.mission p {
+  font-size: 1rem;
+  color: #4a5568;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+// --- Global refinements ---
+h1, h2, h3, h4, h5, h6 {
+  color: #1a1a2e;
+}
+
+a {
+  color: #2563eb;
+  &:hover { color: #1d4ed8; }
+}
+
+.site-header {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.site-footer {
+  border-top: 1px solid #e2e8f0;
+  font-size: 0.875rem;
+  color: #718096;
+}
