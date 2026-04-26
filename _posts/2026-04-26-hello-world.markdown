@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello, World"
+title: "Hello, Robot!"
 date: 2026-04-26 00:00:00 -0400
 categories: update
 ---

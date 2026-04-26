@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Kynetic Intelligence
 ---
 
 ## One brain. Any robot.
@@ -11,7 +10,7 @@ We're developing a hierarchical architecture: a high-level policy for task reaso
 
 **Sim-first. Embodiment-agnostic. Methodology-agnostic.**
 
-We train in three stages: pre-training on diverse simulated tasks, supervised fine-tuning on human demonstration data, and reinforcement learning fine-tuning on specific target tasks. The goal is an intelligence that transfers from simulation to reality — and from one robot body to another.
+We train in three stages: pre-training → supervised fine-tuning → RL. The goal is an intelligence that transfers from simulation to reality — and from one robot body to another.
 
 ### What We're Building
 
